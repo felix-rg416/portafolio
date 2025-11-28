@@ -4,12 +4,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Auna — Janis Sepúlveda Vera</title>
 
+<!--
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+-->
+
+  <title>NombreProyecto — Félix Rodríguez</title>
+
+<!--
   <link rel="stylesheet" href="https://use.typekit.net/rlo4oiq.css">
   <link rel="stylesheet" href="../style.css" />
+-->
 
   <style>
     /* === ESTRUCTURA GENERAL === */
@@ -46,6 +52,7 @@
     }
 
     /* === CONTENIDO DEL PROYECTO === */
+
     main {
       max-width: 1100px;
       margin: 6rem auto;
@@ -122,6 +129,7 @@
 
 <body>
 
+<!--
   <header>
     <nav>
       <a href="../projects.html" class="nav-left">projects</a>
@@ -129,20 +137,23 @@
       <a href="../about.html" class="nav-right">about</a>
     </nav>
   </header>
+-->
 
   <main>
     <!-- === INFORMACIÓN DEL PROYECTO === -->
-    <h1 class="titulo">Auna</h1>
-    <h2 class="subtitulo">2025</h2>
+    <h1 class="titulo">nombreProyecto</h1>
+    <h2 class="subtitulo">año</h2>
     <p class="descripcion">
-      AUNA es un proyecto de diseño y tecnología inspirado en la neuralgia del trigémino, una enfermedad crónica caracterizada por un dolor intenso pero invisible.
-      El sistema combina un amuleto portátil con una aplicación móvil para registrar y visualizar experiencias de dolor.
-      Con un toque, el amuleto permite registrar una crisis de dolor. Puedes encontrar más información en
+  Descripción de los proyectos.
+
+<!--
       <a href="https://github.com/janisepulveda/auna" target="_blank" rel="noopener" class="link-subrayado">
         GitHub
       </a>.
     </p>
+-->
 
+<!--
     <!-- === GALERÍA DE IMÁGENES === -->
     <section class="galeria">
       <figure>
@@ -150,6 +161,7 @@
         <figcaption>Pantallas prototipo AUNA.</figcaption>
       </figure>
     </section>
+-->
   </main>
 
 </body>
