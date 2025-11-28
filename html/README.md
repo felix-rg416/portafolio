@@ -147,8 +147,8 @@
   Descripción de los proyectos.
 
 <!--
-      <a href="https://github.com/janisepulveda/auna" target="_blank" rel="noopener" class="link-subrayado">
-        GitHub
+      <a href="enlace" target="_blank" rel="noopener" class="link-subrayado">
+        altText
       </a>.
     </p>
 -->
@@ -157,8 +157,8 @@
     <!-- === GALERÍA DE IMÁGENES === -->
     <section class="galeria">
       <figure>
-        <img src="../assets/code/auna.png" alt="Imagen 1 del proyecto">
-        <figcaption>Pantallas prototipo AUNA.</figcaption>
+        <img src="direccion de la imagen" alt="Imagen # del proyecto">
+        <figcaption>Texto descriptivo</figcaption>
       </figure>
     </section>
 -->
