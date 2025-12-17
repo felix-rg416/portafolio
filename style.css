@@ -100,17 +100,17 @@
   transition: color 0.3s ease;
 }
 
-/* Línea animada al hover */
+/* Línea animada al hover
 .block ul li a::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -2px;               /* distancia entre texto y línea */
+  bottom: -2px;               distancia entre texto y línea
   width: 0%;
-  height: 2px;                /* grosor de la línea */
-  background-color: #182228;     /* color de la línea */
+  height: 2px;                grosor de la línea
+  background-color: #182228;     color de la línea
   transition: width 0.3s ease;
-}
+} */
 
 /* Hover: cambia color + línea que se extiende */
 .block ul li a:hover {
