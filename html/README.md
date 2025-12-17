@@ -20,7 +20,7 @@
   <style>
     /* === ESTRUCTURA GENERAL === */
     body {
-      font-family: "sofia-pro", Helvetica, Arial, sans-serif;
+      font-family: 'Consolas', Consolas, serif;
       color: #111;
       background: #fff;
       margin: 0;
