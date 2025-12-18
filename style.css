@@ -122,6 +122,44 @@
 }
 
 
+  /* === IMAGENES EN CARRUSEL === */
+
+.carrusel {
+position: relative;
+background-color: #BFE5E3;
+padding-block: var(--carrusel-gap);
+display: flex;
+column-gap: var(--carrusel-gap);
+overflow: hidden;
+
+.logos {
+    display: flex;
+    column-gap: var(--carrusel-gap);
+    animation: scroll var(carrusel-speed) linear infinite;
+    will-change: transform;
+
+  img {
+      width: var(--imagen-width);
+      object-fit: contain;
+    }
+  }
+
+  /* para pausar el scroll */
+  &:hover .logos {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% - var(--carrusel-gap)));
+  }
+}
+
   /* === COLORES Y PLACEHOLDERS === */
   .fabricacionDigital {
     background: #DDF1F0;
@@ -182,7 +220,7 @@
       right: 1.5rem;
     }
   }
-  /* === PLACEHOLDERS CON GIFS === */
+  /* === PLACEHOLDERS CON GIFS ===
 
   .placeholder1 {
     background-image: url("assets/code/p5js.gif");
@@ -209,7 +247,7 @@
     background-repeat: no-repeat;
     grid-column: 3;
     grid-row: 2;
-  }
+  } */
 
   /* === QUITAR TODOS LOS SUBRAYADOS DE LINKS === */
 a {
