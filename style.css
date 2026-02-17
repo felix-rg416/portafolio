@@ -30,12 +30,15 @@
 
   .hero h1 {
     font-size: 3.5rem;
-    margin: 0;
+    margin: 0.5rem;
   }
 
   .hero p {
     font-size: 1.25rem;
-    margin-top: 1rem auto;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1.5;
   }
 
@@ -151,17 +154,17 @@
   }
 
   /* enlaces dentro de los metadatos */
-.p-meta-item span a {
+  .p-meta-item span a {
     text-decoration: none;
-    color: #1D222B;      
+    color: #1D222B;
     border-bottom: 1px solid rgba(29, 34, 43, 0.3);
     transition: all 0.3s ease;
-}
+  }
 
-.p-meta-item span a:hover {
+  .p-meta-item span a:hover {
     border-bottom: 1px solid #1D222B;
     opacity: 0.7;
-}
+  }
 
   /* galeria de imagenes */
 
