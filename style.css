@@ -2,9 +2,9 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: #CBDAE3;
+    background-color: #E9E8E3;
     font-family: "dm-mono", monospace;
-    color: #1D222B;
+    color: #252829;
   }
 
   /* === NAVEGACION === */
@@ -18,7 +18,7 @@
 
   nav a {
     text-decoration: none;
-    color: #1D222B;
+    color: #252829;
     font-weight: bold;
   }
 
@@ -57,6 +57,7 @@
     background-color: #799BB8;
     aspect-ratio: 1 / 1;
     border: 1px solid #999;
+    border-radius: 1rem;
 
     /* Centrado de contenido */
     display: flex;
@@ -72,7 +73,7 @@
   .item h2 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    color: #1D222B;
+    color: #252829;
   }
 
   .item ul {
@@ -89,7 +90,7 @@
 
   .item li a {
     text-decoration: none;
-    color: #1D222B;
+    color: #252829;
     font-size: 1.1rem;
     transition: opacity 0.3s;
     /* Para que el efecto hover sea suave */
@@ -100,6 +101,7 @@
     text-decoration: underline;
     opacity: 0.7;
   }
+
 
   /* === ESTRUCTURA DE PROYECTOS === */
 
@@ -141,7 +143,7 @@
   .p-meta {
     display: flex;
     gap: 3rem;
-    border-top: 1px solid #1D222B;
+    border-top: 1px solid #252829;
     padding-top: 1.5rem;
     margin-bottom: 3rem;
   }
@@ -158,13 +160,13 @@
   /* enlaces dentro de los metadatos */
   .p-meta-item span a {
     text-decoration: none;
-    color: #1D222B;
+    color: #252829;
     border-bottom: 1px solid rgba(29, 34, 43, 0.3);
     transition: all 0.3s ease;
   }
 
   .p-meta-item span a:hover {
-    border-bottom: 1px solid #1D222B;
+    border-bottom: 1px solid #252829;
     opacity: 0.7;
   }
 
@@ -180,7 +182,7 @@
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
-    background-color: #1D222B;
+    background-color: #252829;
   }
 
 
